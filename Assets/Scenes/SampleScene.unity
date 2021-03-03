@@ -304,7 +304,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6538321302788524257, guid: c2365120a00e4644d909c783e58067df, type: 3}
   m_PrefabInstance: {fileID: 2047119262}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2025343218
+--- !u!114 &2025343217
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -313,12 +313,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2025343216}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c98cf907f6ed938478b7f19c88dacdee, type: 3}
+  m_Script: {fileID: 11500000, guid: 25909ae3598a8a14ea65f8b3bfcf3fb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  satellitePrefab: {fileID: 1840577897463246452, guid: 2b0adbc3268e2be4896db48eed81e966, type: 3}
-  degreesPerPlane: 10
-  degreesPerSatInPlane: 10
+  orbitalPlanePrefab: {fileID: 7110070752727983162, guid: 30be3cad24289ac41bb225843e376c25, type: 3}
+  numOrbitalPlanes: 36
+  inclinationDegrees: 53
 --- !u!1001 &2047119262
 PrefabInstance:
   m_ObjectHideFlags: 0

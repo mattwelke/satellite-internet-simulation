@@ -8,7 +8,7 @@ public class Satellite : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Beginning Satellite motion.");
+        // Debug.Log("Beginning Satellite motion.");
     }
 
     // Update is called once per frame
@@ -22,7 +22,7 @@ public class Satellite : MonoBehaviour
 
         if (move)
         {
-            gameObject.transform.RotateAround(pivot, SatelliteData.satRotation, 10 * Time.deltaTime);
+            gameObject.transform.RotateAround(pivot, Vector3.up, -10 * Time.deltaTime);
         }
     }
 }
